@@ -16,7 +16,7 @@ Swara is a Python-based AI assistant designed to interact naturally with users u
 
 ---
 
-## 🚀 Getting Started
+
 
 ### Prerequisites
 
