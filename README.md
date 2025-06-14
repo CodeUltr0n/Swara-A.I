@@ -1,24 +1,31 @@
----
+# 🔊 Swara – Your Personalized Voice Assistant
 
-
-
-## 🗣️ Usage
-- Start the app
-- Use the voice interface to say commands (e.g. "play music", "open browser", "tell a joke")
-- Wake word triggers via microphone input using Porcupine
+Swara is a Python-based AI assistant designed to interact naturally with users using speech, text, and personalized commands. Inspired by voice assistants like Alexa and Jarvis, Swara is built from scratch with customization and local control in mind.
 
 ---
 
-## 📌 To-Do / Future Improvements
-- Add geolocation-based weather info
-- Support for more voice commands
-- Add GUI toggle for dark/light theme
-- Integration with GPT for smart responses
+## 🎯 Features
+
+- 🎙️ **Wake Word Activation** – Trigger Swara using a custom hotword (e.g., "Swara")
+- 🧠 **Natural Language Understanding** – Processes voice/text commands intelligently
+- 💬 **Text-to-Speech & Speech-to-Text** – Communicates fluently via voice and text
+- 🔗 **Web Integration** – Opens websites, fetches weather, and performs searches
+- ⚙️ **Modular Command System** – Add your own custom commands easily
+- 🧪 **Offline Capability** – Works without an internet connection (configurable)
+- 🌐 **Multi-platform** – Runs on macOS, Windows, Linux
 
 ---
 
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Python 3.8+
+- `pip` (Python package manager)
+- Microphone access enabled
+
 
 ---
 
