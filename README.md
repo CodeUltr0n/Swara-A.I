@@ -39,4 +39,4 @@ Ensure you have the following installed:
 ## 🔗 Demo & Showcase
 - 📷 LinkedIn Post: https://www.linkedin.com/posts/ketan-chokkara-2888b2274_python-ai-voiceassistant-activity-7339715504812511232-Bhn9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMNaggBibHhOK4_7VtTGhaBId1FININLEc
 - 🎥 Demo Video: https://www.linkedin.com/posts/ketan-chokkara-2888b2274_python-ai-voiceassistant-activity-7339715504812511232-Bhn9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEMNaggBibHhOK4_7VtTGhaBId1FININLEc
-- 🗂 GitHub Repo: https://github.com/YourUsername/swara-ai-assistant
+
