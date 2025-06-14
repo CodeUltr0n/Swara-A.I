@@ -1,0 +1,194 @@
+body{
+    background-color:black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.sqaure{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sqaure span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, black 40%, transparent 70%);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: blobPulse1 12s linear infinite;
+}
+
+.sqaure span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.95) 40%, transparent 70%);
+    box-shadow:
+        0 0 80px rgba(0, 0, 255, 0.8),
+        0 0 120px rgba(0, 0, 255, 0.6),
+        inset 0 0 40px rgba(0, 0, 255, 0.5);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: blobPulse2 12s linear infinite;
+ 
+}
+.sqaure span:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.95) 40%, transparent 70%);
+    box-shadow:
+        0 0 80px rgba(0, 0, 255, 0.8),
+        0 0 120px rgba(0, 0, 255, 0.6),
+        inset 0 0 40px rgba(0, 0, 255, 0.5);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: blobPulse3 12s linear infinite;
+}
+
+@keyframes blobPulse {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blobPulse2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes blobPulse3 {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(3600deg);
+    }
+}
+
+#textinput {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+#chatbox {
+    width: 60%;
+    padding: 12px 20px;
+    border: 2px solid rgb(59, 91, 91);
+    border-radius: 10px;
+background-color: rgba(17, 17, 17, 0.5); /* 0.5 = 50% opacity */   
+ color: #fff;
+    font-size: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgb(112, 162, 162), 0 0 20px rgb(73, 127, 127), 0 0 30px #0ff;
+    position: relative;
+    z-index: 1;
+}
+
+#chatbox:focus {
+    border-color: #0ff;
+    box-shadow: 0 0 12px #0ff;
+}
+
+.glow-on-hover {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #000; /* Keeps the button dark inside */
+    border: 2px solid #0ff;
+    color: #0ff;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.glow-on-hover::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        #0ff,
+        #f0f,
+        #ff0,
+        #0ff,
+        #0f0,
+        #00f,
+        #f00
+    );
+    z-index: -1;
+    transition: 0.5s;
+    filter: blur(40px);
+    opacity: 0;
+    border-radius: 50%;
+    animation: rotateBg 6s linear infinite;
+}
+
+.glow-on-hover:hover::before {
+    opacity: 1;
+}
+
+@keyframes rotateBg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.glow-on-hover:hover {
+    background-color: #00f;
+    color: #fff;
+    box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+}
+
+footer.text {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+#welcomeFooter {
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  bottom: 140px; /* Adjust this value */
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 3;
+  font-size: large;
+  font-weight: bold;
+
+}
+#welcomeFooter.hide {
+  opacity: 0;
+}
+

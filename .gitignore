@@ -1,0 +1,32 @@
+/envswara
+swara.db
+/engine/__pycache__/
+/engine/cookies.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Envs
+/envswara
+.env*
+venv/
+
+# Databases
+swara.db
+
+# Logs and dumps
+*.log
+*.tmp
+*.bak
+*.swp
+day_11 _ code_snippet.txt
+
+# Auth/Cookies
+/engine/cookies.json
+
+# IDE and OS files
+.vscode/
+.DS_Store
