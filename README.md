@@ -1,6 +1,6 @@
 # 🔊 Swara – Your Personalized Voice Assistant
 
-Swara is a Python-based AI assistant designed to interact naturally with users using speech, text, and personalized commands. Inspired by voice assistants like Alexa and Jarvis, Swara is built from scratch with customization and local control in mind.
+Swara is a Python-based AI assistant designed to interact naturally with users using speech, text, and personalized commands.Swara is built from scratch with customization and local control in mind.
 
 ---
 
